@@ -22,7 +22,7 @@ sudo mysql -u root -p${MYSQL_ROOT_PASSWORD} -e "GRANT ALL PRIVILEGES ON ${DB_NAM
 sudo mysql -u root -p${MYSQL_ROOT_PASSWORD} -e "FLUSH PRIVILEGES;"
 
 # Clonar o repositório do projeto
-git clone https://github.com/seu_usuario/mercadinho.git /var/www/html/mercadinho
+git clone https://github.com/EvairSantos/mercadinho.git /var/www/html/mercadinho
 
 # Navegar para o diretório do projeto
 cd /var/www/html/mercadinho
